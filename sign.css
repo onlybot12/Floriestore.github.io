@@ -1,0 +1,318 @@
+:root {
+    --main: #171717;
+    --btn: #000;
+    --biru: #5bc0f8;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-family: "Poppins";
+    background-color: var(--main);
+    color: #fff;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 7%;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #262626;
+}
+
+.navbar .navbar-logo {
+    font-size: 1rem;
+    font-weight: 700;
+    color: #fff;
+    margin-right: auto;
+}
+
+.navbar .navbar-logo span {
+    color: var(--biru);
+}
+
+.navbar .navbar-nav {
+    height: 2rem;
+    justify-content: end;
+    padding-left: 1rem;
+    display: flex;
+    align-items: center;
+    border-radius: 1rem;
+    -webkit-border-radius: 1rem;
+    -moz-border-radius: 1rem;
+    -ms-border-radius: 1rem;
+    -o-border-radius: 1rem;
+    cursor: pointer;
+}
+
+.navbar .navbar-nav:hover input {
+    width: 10rem;
+}
+
+.navbar .navbar-nav input {
+    box-sizing: border-box;
+    background: transparent;
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 200;
+    transition: 0.8s;
+    -webkit-transition: 0.8s;
+    -moz-transition: 0.8s;
+    -ms-transition: 0.8s;
+    -o-transition: 0.8s;
+}
+
+.navbar .navbar-nav a {
+    color: #fff;
+    display: inline-block;
+    font-size: 1rem;
+    margin: 0 1rem;
+    font-style: italic;
+}
+
+.navbar .navbar-nav a:hover {
+    color: var(--biru);
+}
+
+.navbar .navbar-nav a::after {
+    content: "";
+    display: block;
+    padding: 0 1rem;
+    border-bottom: 0.1rem solid var(--biru);
+    transform: scaleX(0);
+    -webkit-transform: scaleX(0);
+    -moz-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    -o-transform: scaleX(0);
+}
+
+.navbar .navbar-nav a:hover::after {
+    transform: scaleX(0.5);
+    -webkit-transform: scaleX(0.5);
+    -moz-transform: scaleX(0.5);
+    -ms-transform: scaleX(0.5);
+    -o-transform: scaleX(0.5);
+    transition: 0.2s linear;
+    -webkit-transition: 0.2s linear;
+    -moz-transition: 0.2s linear;
+    -ms-transition: 0.2s linear;
+    -o-transition: 0.2s linear;
+}
+
+.navbar .navbar-extra a {
+    color: #fff;
+    margin: 0 0.8rem;
+    font-size: 1.5rem;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--main);
+    column-gap: 3px;
+}
+
+.form {
+    position: fixed;
+    max-width: 20rem;
+    width: 100%;
+    padding: 2rem;
+    background-color: white;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+    box-shadow: -0px 0px 3px 5px rgba(0, 0, 0, 0.36);
+    -webkit-box-shadow: -1px 1px 3px 2px rgba(0, 0, 0, 0.36);
+    -moz-box-shadow: -1px 1px 3px 2px rgba(0, 0, 0, 0.36);
+}
+
+header {
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000000;
+    text-align: center;
+}
+
+form {
+    margin-top: 1rem;
+}
+
+.form .field {
+    position: relative;
+    height: 2rem;
+    width: 100%;
+    margin-top: 0.8rem;
+    border-radius: 6px;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+}
+
+.field input,
+.field button {
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 0.3rem;
+    -webkit-border-radius: 0.3rem;
+    -moz-border-radius: 0.3rem;
+    -ms-border-radius: 0.3rem;
+    -o-border-radius: 0.3rem;
+}
+
+.field input {
+    font-size: 1rem;
+    font-weight: 400;
+    border: 0.1rem solid #cacaca;
+    padding: 0 1rem;
+    outline: none;
+}
+.field input:focus {
+    border-bottom-width: 2px;
+}
+
+.form-link {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 0.8rem;
+}
+
+.eye-icon {
+    top: 50%;
+    right: 1rem;
+    transform: translateY(-50%);
+    position: absolute;
+    font-size: 0.9rem;
+    color: #8b8b8b;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    cursor: pointer;
+    padding: 5px;
+}
+.form-link span {
+    color: #171717;
+}
+
+.form-link span,
+.form-link span a {
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.form a {
+    color: var(--biru);
+}
+
+.form-content a:hover {
+    text-decoration: underline;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    position: relative;
+    background-color: #d4d4d4;
+    margin: 1rem 0;
+}
+
+.line::before {
+    content: "or";
+    color: var(--main);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 0 1rem;
+}
+.field button {
+    color: #fff;
+    background-color: #0171d3;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.field button:hover {
+    color: #fff;
+    background-color: #016dcb;
+}
+
+.media-options a {
+    display: flex;
+    background-color: #4267b2;
+    align-items: center;
+    justify-content: center;
+}
+
+a.facebook {
+    color: #ffffff;
+    font-size: 0.7rem;
+    background-color: #4267b2;
+}
+
+a.facebook .facebook-icon {
+    color: #016dcb;
+    font-size: 15px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: 25px;
+    background-color: #fff;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.facebook-icon {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+}
+
+.bg {
+    position: fixed;
+    top: 15%;
+    left: 40%;
+}
+@media only screen and (max-width: 1080px) and (max-height: 1920px) {
+    .navbar .navbar-nav a {
+        display: none;
+    }
+    .bg {
+        position: fixed;
+        top: 15%;
+        left: -88%;
+    }
+}
