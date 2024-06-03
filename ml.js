@@ -8,129 +8,129 @@ function tp1(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
-  total.innerHTML = "Rp. 27.500";
+  total.innerHTML = "Rp. 40.000";
   // payment nominal
-  wallet[i].innerHTML = "Rp. 27.500";
+  wallet[i].innerHTML = "Rp. 40.000";
   }
 }
 function tp2(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
-  total.innerHTML = "Rp. 167.500";
+  total.innerHTML = "Rp. 47.000";
   // payment nominal
-  wallet[i].innerHTML = "Rp. 167.500";
+  wallet[i].innerHTML = "Rp. 47.000";
   }
 }
 function tp3(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView
   harga.style.display = "block";
-  total.innerHTML = "Rp. 303.500";
+  total.innerHTML = "Rp. 69.000";
   // payment nominal
-  wallet[i].innerHTML = "Rp. 303.500";
+  wallet[i].innerHTML = "Rp. 69.000";
   }
 }
 function tp4(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
-  total.innerHTML = "Rp. 2.500";
+  total.innerHTML = "Rp. 79.000";
   // payment nominal
-  wallet[i].innerHTML = "Rp. 2.500";
+  wallet[i].innerHTML = "Rp. 79.000";
   }
 }
 function tp5(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
-  total.innerHTML = "Rp. 5.500";
+  total.innerHTML = "Rp. 82.000";
   // payment nominal
-  wallet[i].innerHTML = "Rp. 5.500";
+  wallet[i].innerHTML = "Rp. 82.000";
   }
 }
 function tp6(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
-  total.innerHTML = "Rp. 8.500";
+  total.innerHTML = "Rp. 95.000";
   // payment nominal
-  wallet[i].innerHTML = "Rp. 8.500";
+  wallet[i].innerHTML = "Rp. 95.000";
   }
 }
 function tp7(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
-  total.innerHTML = "Rp. 18.500";
+  total.innerHTML = "Rp. 98.500";
   // payment nominal
-  wallet[i].innerHTML = "Rp. 18.500";
+  wallet[i].innerHTML = "Rp. 98.500";
   }
 }
 function tp8(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
-  total.innerHTML = "Rp. 22.500";
+  total.innerHTML = "Rp. 110.000";
   // payment nominal
-  wallet[i].innerHTML = "Rp. 22.500";
+  wallet[i].innerHTML = "Rp. 110.000";
   }
 }
 function tp9(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
-  total.innerHTML = "Rp. 41.500";
+  total.innerHTML = "Rp. 138.000";
   // payment nominal
-  wallet[i].innerHTML = "Rp. 41.500";
+  wallet[i].innerHTML = "Rp. 138.000";
   }
 }
 function tp10(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
-  total.innerHTML = "Rp. 59.500";
+  total.innerHTML = "Rp. 160.000";
   // payment nominal
-  wallet[i].innerHTML = "Rp. 59.500";
+  wallet[i].innerHTML = "Rp. 160.000";
   }
 }
 function tp11(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
-  total.innerHTML = "Rp. 74.500";
+  total.innerHTML = "Rp. 181.000";
   // payment nominal
-  wallet[i].innerHTML = "Rp. 74.500";
+  wallet[i].innerHTML = "Rp. 181.000";
   }
 }
 function tp12(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
-  total.innerHTML = "Rp. 79.500";
+  total.innerHTML = "Rp. 208.000";
   // payment nominal
-  wallet[i].innerHTML = "Rp. 79.500";
+  wallet[i].innerHTML = "Rp. 208.000";
   }
 }
 function tp13(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
-  total.innerHTML = "Rp. 97.500";
+  total.innerHTML = "Rp. 218.000";
   // payment nominal
-  wallet[i].innerHTML = "Rp. 97.500";
+  wallet[i].innerHTML = "Rp. 218.000";
   }
 }
 function tp14(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
-  total.innerHTML = "Rp. 117.500";
+  total.innerHTML = "Rp. 242.000";
   // payment nominal
-  wallet[i].innerHTML = "Rp. 117.500";
+  wallet[i].innerHTML = "Rp. 242.000";
   }
 }
-function tp15(){
+/*function tp15(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
@@ -156,7 +156,7 @@ function tp17(){
   // payment nominal
   wallet[i].innerHTML = "Rp. 520.500";
   }
-}
+} 
 function tp18(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
@@ -174,4 +174,4 @@ function tp19(){
   // payment nominal
   wallet[i].innerHTML = "Rp. 1.160.500";
   }
-}
+} */
