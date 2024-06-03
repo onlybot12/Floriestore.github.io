@@ -22,7 +22,7 @@ function tp2(){
   wallet[i].innerHTML = "Rp. 47.000";
   }
 }
-function tp3(){
+function tp4(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView
   harga.style.display = "block";
@@ -31,7 +31,7 @@ function tp3(){
   wallet[i].innerHTML = "Rp. 69.000";
   }
 }
-function tp4(){
+function tp5(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
@@ -40,7 +40,7 @@ function tp4(){
   wallet[i].innerHTML = "Rp. 79.000";
   }
 }
-function tp5(){
+function tp6(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
@@ -49,7 +49,7 @@ function tp5(){
   wallet[i].innerHTML = "Rp. 82.000";
   }
 }
-function tp6(){
+function tp7(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
@@ -58,7 +58,7 @@ function tp6(){
   wallet[i].innerHTML = "Rp. 95.000";
   }
 }
-function tp7(){
+function tp8(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
@@ -67,7 +67,7 @@ function tp7(){
   wallet[i].innerHTML = "Rp. 98.500";
   }
 }
-function tp8(){
+function tp9(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
@@ -76,7 +76,7 @@ function tp8(){
   wallet[i].innerHTML = "Rp. 110.000";
   }
 }
-function tp9(){
+function tp10(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
@@ -85,7 +85,7 @@ function tp9(){
   wallet[i].innerHTML = "Rp. 138.000";
   }
 }
-function tp10(){
+function tp11(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
@@ -94,7 +94,7 @@ function tp10(){
   wallet[i].innerHTML = "Rp. 160.000";
   }
 }
-function tp11(){
+function tp12(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
@@ -103,7 +103,7 @@ function tp11(){
   wallet[i].innerHTML = "Rp. 181.000";
   }
 }
-function tp12(){
+function tp13(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
@@ -112,7 +112,7 @@ function tp12(){
   wallet[i].innerHTML = "Rp. 208.000";
   }
 }
-function tp13(){
+function tp14(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
@@ -121,7 +121,7 @@ function tp13(){
   wallet[i].innerHTML = "Rp. 218.000";
   }
 }
-function tp14(){
+function tp15(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
