@@ -468,8 +468,8 @@ body {
     }
 
     .price .content-price .price-box ul {
-        border: 5px solid var(--btn);
-        border-radius: 6px;
+        border: 1px solid var(--btn);
+        border-radius: 1px;
         display: flex;
         justify-content: center;
         align-items: center;
