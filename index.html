@@ -85,7 +85,64 @@
   <body>
     <br /><br /><br /><br /> -->
 
-           
+    <body>
+<nav class="navbar">
+<div class="menu-icon">&#9776;</div>
+<ul>
+<li><a href="#home">Beranda</a></li>
+<li><a href="#about">Tentang</a></li>
+<li class="dropdown">
+<a href="#services">Layanan &#9662;</a>
+<ul class="dropdown-content">
+<li><a href="#web-design">Desain Web</a></li>
+  <li><a href="#web-development">Pengembangan Web</a></li>
+<li><a href="#seo">SEO</a></li>
+  </ul>
+    </li>
+<li><a href="#contact">Kontak</a></li>
+         </ul>
+      </nav>
+   </body>
+
+
+
+        <!--- -->
+
+.menu-icon {
+
+    display: none;
+
+    cursor: pointer;
+
+    color: white;
+
+    font-size: 24px;
+
+    margin-right: 20px;
+
+}
+
+@media (max-width: 768px) {
+
+    .navbar ul {
+
+        display: none;
+
+    }
+
+    .navbar li {
+
+        margin: 10px 0;
+
+    }
+
+    .menu-icon {
+
+        display: block;
+
+    }
+
+}
         
         <!-- End Navbar --->
 
