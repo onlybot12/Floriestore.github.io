@@ -90,9 +90,9 @@ function tp10(){
   for (let i = 0; i < wallet.length; i++) {
   pay.scrollIntoView();
   harga.style.display = "block";
-  total.innerHTML = "Rp. 600.000";
+  total.innerHTML = "Rp. 4.800.000";
   // payment nominal
-  wallet[i].innerHTML = "Rp. 600.000";
+  wallet[i].innerHTML = "Rp. 4.800.000";
   }
 }
 function tp11(){
