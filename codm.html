@@ -1,1 +1,230 @@
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style2.css"/>
+  <link rel="stylesheet" href="card-style.css"/>
+  <title>Call Of Duty Mobile - FLORIE STORE</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./img/logo.jpg">
+</head>
+<body class="d-flex flex-column min-vh-100">
+  <div class="box-shadow">
+    <h4>Call Of Duty Mobile</h4>
+    <span class="line"></span>
+    <div class="box-proses">
+      <img src="https://tmpfiles.org/dl/8214242/1718174332193.jpg" alt="CODM">
+      <p class="proses">Top Up CODM<br>
+      <p class="proses2">Proses cepat</p>
+    </div>
+    <div class="box-step">
+      <ul>
+		<li>1. Masukkan <b>ID</b></li>
+        <li>2. PIlih <b>Nominal </b>CP</li>
+        <li>3. PIlih <b>Metode pembayaran</b></li>
+        <li>5. Klik <b>Bayar Sekarang</b> & lakukan pembayaran</li>
+        <li>6. CP akan masuk otomatis.</li>
+      </ul>
+    </div>
+  </div>
+  
+  <br>
+  
+  <div class="box-shadow2">
+    <h5>1. ALAMAT EMAIL (OPSIONAL)</h5>
+    <form class="data-id">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label asu">Masukan Email</label>
+        <input type="email" class="form-control form-control-sm" placeholder="example@your.com" id="exampleInputEmail1" aria-describedby="emailHelp">
+      </div>
+    </form>
+    <br>
+    
+    <h5>2. MASUKAN ID </h5>
+    <form onsubmit="getNickFF(event)">
+    <div class="data-id">
+      <div class="mb-3">
+        <label for="exampleInputEmail1" class="form-label asu">Masukan ID Pengguna</label>
+        <input type="number" class="form-control form-control-sm" placeholder="12345678" id="id" name="id" aria-describedby="emailHelp" required>
+      </div>
+      <button type="submit" style="font-size: 15px; border-radius: 10px;" class="btn btn-primary">Check nickname</button>
+      </form>
+      <div id="result"></div>
+  </div>
+</div>
+  
+  <div class="box-shadow3">
+    <div class="wrapper-diamond">
+    <h5>3. PILIH ITEM</h5>
+      <div class="container">
+        <div class="row gx-2">
+          
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tp1()">
+              <div id="selection1">
+                <p>63 CP</p>
+                <span>Rp. 10.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tp2()">
+              <div id="selection1">
+                <p>128 CP</p>
+                <span>Rp. 20.000</span>
+              </div>
+            </label>
+          </div>
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tp3()">
+              <div id="selection1">
+                <p>321 CP</p>
+                <span>50.000</span>
+              </div>
+            </label>
+          </div>
+        
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tp4()">
+              <div id="selection1">
+                <p>645 CP</p>
+                <span>Rp. 100.000</span>
+              </div>
+            </label>
+          </div>
+
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tp5()">
+              <div id="selection1">
+                <p>800 CP</p>
+                <span>Rp. 120.000</span>
+              </div>
+            </label>
+          </div>
+
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tp6()">
+              <div id="selection1">
+                <p>1373 CP</p>
+                <span>Rp. 200.000</span>
+              </div>
+            </label>
+          </div>
+
+          <div class="col-6">
+            <input type="checkbox" class="btn-check border" id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary text-light pilih" onclick="tp7()">
+              <div id="selection1">
+                <p>5619</p>
+                <span>Rp. 735.000</span>
+              </div>
+            </label>
+          </div>
+
+          
+        <!-- BATAS VOUCHER GAME LOL --->
+          
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="box-shadow4" id="pembayaran">
+  	
+
+<h5>4. PILIH METODE PEMBAYARAN</h5>
+    <p class="wallet">E-Wallet</p>
+    <div class="container">
+      <div class="row g-2">
+        <div class="col-12">
+          <input type="checkbox" class="btn-check " id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary metode-payment1">
+                <div id="choose-payment1">
+                  <img src="img/20240606_183537.png" alt="" class="img-payment1">
+                  <h5>Dana</h5>
+                  <p class="wallet3">Rp.</p>
+                </div>
+            </label>
+        </div>
+        <div class="col-12">
+          <input type="checkbox" class="btn-check " id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary metode-payment1">
+                <div id="choose-payment1">
+                  <img src="img/logo-gopay.png" alt="" class="img-payment1">
+                  <h5>Gopay</h5>
+                  <p class="wallet3">Rp.</p>
+                </div>
+            </label>
+        </div>
+	      <div class="col-12">
+          <input type="checkbox" class="btn-check " id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary metode-payment1">
+                <div id="choose-payment1">
+                  <img src="img/logo-ovo.png" alt="" class="img-payment1">
+                  <h5>Ovo</h5>
+                  <p class="wallet3">Rp.</p>
+                </div>
+            </label>
+	      </div>
+	   <div class="col-12">
+          <input type="checkbox" class="btn-check " id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary metode-payment1">
+                <div id="choose-payment1">
+                  <img src="img/logo-shopeepay.png" alt="" class="img-payment1">
+                  <h5>ShopeePay</h5>
+                  <p class="wallet3">Rp.</p>
+                </div>
+            </label>
+	   </div>   
+        <div class="col-12">
+         <input type="checkbox" class="btn-check " id="btn-check" autocomplete="off">
+            <label class="btn btn-secondary metode-payment1">
+                <div id="choose-payment1">
+                  <img src="https://telegra.ph/file/30fcc957b4ca1b28694b8.png" alt="" class="img-payment1">
+                    <h5>Qris</h5>
+                  <p class="wallet3">Rp.</p>
+                </div>
+            </label>
+         </div>
+       </div>
+     </div>
+	  
+  <div class="box-shadow5" id="total">
+      <div class="mb-1 row mt-1">
+        <div class="col-sm-10 d-flex justify-content-center flex-column">
+      	<b class="payment">Subtotal:</b><p id="total1">Rp.</p>
+          <span class="acc">Saya telah membaca dan menyetujui <a class="tol">Ketentuan Layanan</a></span>
+          <a href="metode-pembayaran">
+          <button type="button" style="border-radius: 15px;" class="btn btn-primary">Bayar Sekarang</button>
+          </a>
+        </div>
+      </div>
+    </div>
+   </div>
+ </div>
+ 
+<footer>
+    <div class="container-end" id="footer">
+      <div class="wrapper-end">
+        <small class="footertext">Copyright © 2024 <a href=" " style="color: #00E0FF">FLORIE STORE</a>. All Rights Reserved.</small>
+        <br>
+      </div>
+    </div>
+  </footer>
+  
+</body>
+	<script src="assets/js/check_nickname.js" type="text/javascript"></script>
+	<script src="assets/js/codm.js" type="text/javascript" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+        </html>
+        
